@@ -10,3 +10,7 @@ if __name__ == '__main__':
    lst = LancasterStemmer()
    print(lst.stem('eating'))
    print(pst.stem('shopping'))
+
+
+   from nltk.metrics import edit_distance
+   print(edit_distance('rain','shine'))
